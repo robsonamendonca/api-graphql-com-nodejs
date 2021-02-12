@@ -20,6 +20,7 @@ const schema = buildSchema(`
 
 
 const app = express();
+var porta = process.env.PORT || 3333;
 
 app.use("/graphql", graphqlHTTP({
 schema,
@@ -27,4 +28,4 @@ rootValue,
 graphiql: false
 }));
 
-app.listen(3333, () => console.log("Express GraphQL Server Now Running On localhost:3333/graphql"));
+app.listen(porta , () => console.log("Express GraphQL Server Now Running On localhost:"+porta +"/graphql"));
