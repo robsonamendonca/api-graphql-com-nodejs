@@ -4,15 +4,15 @@
   "main": "index.js",
   "author": "Robson Mendonça <rob.ams@gmail.com>",
   "license": "MIT",
+   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
     "express-graphql": "^0.12.0",
     "graphql": "^15.5.0"
   },
 "scripts": {
-
-     "start": "nodemon server.js"
-
+     "dev": "nodemon server.js",
+     "start": "node server.js"
  },
   "devDependencies": {
     "nodemon": "^2.0.7"
