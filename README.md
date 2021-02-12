@@ -20,14 +20,18 @@ node app.js
 ## Setup
 ``` bash
 yarn add express graphql express-graphql --save
+
 ou
+
 npm install express graphql express-graphql --save
 ```
 
 ## Agilidade
 ``` bash
 yarn add nodemon -D
+
 ou
+
 npm install –save-dev nodemon
 ```
 
